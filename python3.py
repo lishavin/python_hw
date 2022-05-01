@@ -1,9 +1,10 @@
 list = []
 
-item = input("Enter anything: ")
 while True:
+    item = input("Enter anything: ")
     if(item == "q"):
-        break
-        print(list)
+        break  
     else:
         list.append(item)
+
+print(list)
